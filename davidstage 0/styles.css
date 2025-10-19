@@ -1,0 +1,87 @@
+/* Base Card Styles */
+.card {
+    
+    max-width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #e5dcea;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Avatar */
+.card-avatar img {
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eee;
+}
+
+/* Card Title */
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #6f6262;
+}
+
+/* Bio */
+.card-bio p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 10px 0 20px;
+    line-height: 1.5;
+}
+
+/* Social Links */
+.card-social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.card-social-links li {
+    
+    display: inline-block;
+    margin: 0 8px;
+    color: #6f6262;
+}
+
+.card-social-links a {
+    text-decoration: none;
+    color: #7d5364;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.card-social-links a:hover {
+    color: #0056b3;
+}
+
+/* Hobbies and Dislikes */
+.card-hobbies ul,
+.card-dislikes ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* ✅ Replaced old -moz-inline-box */
+    color: #7d5364;
+}
+
+.card-hobbies li,
+.card-dislikes li {
+    background-color: #f5f5f5;
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Headings for*
